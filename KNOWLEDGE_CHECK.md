@@ -8,7 +8,7 @@ Assume you want to share your image with others and make it publicly available o
 
 **Your answer:** Give two reasons why this is a bad idea. Think of who could then read your credentials, and of what happens when your Learner Lab session ends.
 
-...
+Thats a bad idea because anyone can read them. A public image can be pulled by anyone which will make your credentials unprotected. You also can't take them back.
 
 ## 2. Where did the Atlas password come from?
 
@@ -18,7 +18,7 @@ In Step 4, you ran the analysis once with `-v ~/.aws:/home/app/.aws:ro` only, wi
 
 **Your answer:** Explain, step by step, where the container found the Atlas settings in that run.
 
-...
+the password comes from get_atlas_settings() -> boto3 created -> boto3 searched -> AWS access keys -> get_parameter -> json
 
 ## 3. Same tag, different image
 
@@ -26,4 +26,10 @@ Run `docker images book-analysis`, and note the image ID of `book-analysis:0.1.0
 
 **Your answer:** Paste the image ID from before and after the rebuild. Why is it a problem for someone who uses your image that `0.1.0` now names a different image, and what should you have done instead?
 
-...
+IMAGE                 ID             DISK USAGE   CONTENT SIZE   EXTRA
+book-analysis:0.1.0   c46ce90fb4c4        312MB         83.2MB
+
+IMAGE                 ID             DISK USAGE   CONTENT SIZE   EXTRA
+book-analysis:0.1.0   28a774f22f1e        312MB         83.2MB
+
+It's a problem becuase a tag is only a label that can be moved, doesn't solidify the contents.

@@ -1,0 +1,99 @@
+{
+  "documents": 101,
+  "runs_by_machine": [
+    {
+      "host": "169.254.55.79",
+      "books": 1
+    },
+    {
+      "host": "169.254.97.69",
+      "books": 1
+    },
+    {
+      "host": "EricLaptopUVA",
+      "books": 3
+    },
+    {
+      "host": "b4164d34a51a",
+      "books": 1
+    },
+    {
+      "host": "dc3277f726ca",
+      "books": 3
+    },
+    {
+      "host": "f64c7cd863bc",
+      "books": 101
+    },
+    {
+      "host": "ip-172-31-30-75",
+      "books": 100
+    },
+    {
+      "host": "udc-aw37-1",
+      "books": 1
+    }
+  ],
+  "last_processed": [
+    {
+      "_id": "pg996.txt",
+      "author": "Miguel de Cervantes Saavedra",
+      "bucket": "public-zqu3wh",
+      "language": "English",
+      "runs": [
+        {
+          "host": "ip-172-31-30-75",
+          "at": "2026-11-12 00:49:38.352000"
+        },
+        {
+          "host": "f64c7cd863bc",
+          "at": "2026-11-19 02:20:41.437000"
+        }
+      ],
+      "title": "Don Quixote",
+      "unique_words": 15574,
+      "vocabulary_ratio": 0.0359,
+      "word_count": 433304
+    },
+    {
+      "_id": "pg98.txt",
+      "author": "Charles Dickens",
+      "bucket": "public-zqu3wh",
+      "language": "English",
+      "runs": [
+        {
+          "host": "ip-172-31-30-75",
+          "at": "2026-11-12 00:49:37.958000"
+        },
+        {
+          "host": "f64c7cd863bc",
+          "at": "2026-11-19 02:20:40.788000"
+        }
+      ],
+      "title": "A Tale of Two Cities",
+      "unique_words": 9698,
+      "vocabulary_ratio": 0.07,
+      "word_count": 138490
+    },
+    {
+      "_id": "pg963.txt",
+      "author": "Charles Dickens",
+      "bucket": "public-zqu3wh",
+      "language": "English",
+      "runs": [
+        {
+          "host": "ip-172-31-30-75",
+          "at": "2026-11-12 00:49:37.721000"
+        },
+        {
+          "host": "f64c7cd863bc",
+          "at": "2026-11-19 02:20:40.433000"
+        }
+      ],
+      "title": "Little Dorrit",
+      "unique_words": 14784,
+      "vocabulary_ratio": 0.0428,
+      "word_count": 345231
+    }
+  ]
+}
